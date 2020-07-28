@@ -17,3 +17,5 @@ array = [[1,2,3],
 snail_sort(array) #=> [1,2,3,4,5,6,7,8,9]
 ```
 
+![snail image](snail.png?raw=true "Snail Sort")
+
