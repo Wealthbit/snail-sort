@@ -20,14 +20,14 @@ snail_sort(array) #=> [1,2,3,4,5,6,7,8,9]
 ## Super useful hints
 
 <details>
-  <summary> Visualization </summary>  
-         
+  <summary> Visualization </summary>
+
   ![snail image](snail.png?raw=true "Snail Sort")
 </details>
 
 <details>
- <summary> Array functions </summary>  
-         
+ <summary> Array functions </summary>
+
  ### Array.flatten
  Flattens an array by 1 level
  ```ruby
@@ -46,7 +46,7 @@ snail_sort(array) #=> [1,2,3,4,5,6,7,8,9]
  a = [[1,2], [3,4], [5,6]]
  a.transpose   #=> [[1, 3, 5], [2, 4, 6]]
  ```
- 
+
  ### Array.reverse
  Reverse the order in an array
  ```ruby
@@ -56,8 +56,8 @@ snail_sort(array) #=> [1,2,3,4,5,6,7,8,9]
 </details>
 
 <details>
-  <summary> Rotate a 2D array </summary>  
-         
+  <summary> Rotate a 2D array </summary>
+
   To rotate a 2D array, you can combine the `transpose` and `reverse` methods
   ```ruby
   a = [
@@ -75,8 +75,8 @@ snail_sort(array) #=> [1,2,3,4,5,6,7,8,9]
 </details>
 
 <details>
-  <summary> Solution hint </summary>  
-         
+  <summary> Solution hint </summary>
+
   Create a result array `result = []`
   - Take and remove the top values of the array.
   - We want to remove the top values so that we don't repeat any values in our result.
